@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Aula03Colecoes.Models;
 using Aula03Colecoes.Models.Enuns;
+using System.Linq;
 
 namespace Aula03Colecoes
 {
@@ -225,8 +226,6 @@ namespace Aula03Colecoes
             //ToLower transforma os caracteres em minúsculos p/ não ter problema de distinção
             //ToUpper transforma os caracteres em maiúsculos
             {
-                AdicionarItem();
-
                 lista = lista.FindAll(x => x.Nome.ToLower().Contains("ronaldo"));
                 ExibirLista();
             }
@@ -251,22 +250,24 @@ namespace Aula03Colecoes
             //a) Método com nome ObterPorNome que selecione um funcionário de acordo com o nome digitado e que, caso não encontre, retorne uma mensagem para o usuário. 
             public static void ObterPorNome()
             {
-             Console.WriteLine("Digite o nome a ser obtido: ");
-                f.Nome = Console.ReadLine();
-
-                if (string.IsNullOrEmpty(f.Nome))
+                Funcionario f = new Funcionario();
+                Console.WriteLine("Digite o nome a ser obtido: ");
+                f.Nome = Console.ReadLine();  
+                string resultado = lista.Find(f => f.Nome == f.Nome).ToString();
+ 
+                if (resultado.Length < 1)
                 {
                     Console.WriteLine("O nome deve ser preenchido");
                     return;
                 }
-                else if (lista.find(Nome))
+                else if (string.IsNullOrEmpty(resultado))
                 {   
                     Console.WriteLine("O funcionário não possui registro no banco de dados.");
                     return;
                 }
                 else 
                 {
-                    Console.WriteLine($"{lista.find(Nome)}");
+                    Console.WriteLine($"Nome: {resultado.ToString()}");
                 }
 
             }
@@ -280,7 +281,8 @@ namespace Aula03Colecoes
             //c) Método com nome ObterEstatisticas que exiba a quantidade de funcionários da lista e qual o somatório de salário dos funcionários.
             public static void ObterEstatisticas()
             {
-            int quantidade = lista.FindAll(x => x.Id);
+            Funcionario busca = new Funcionario();
+            busca = lista.FindAll(b => busca.Id);
             decimal somatorio = lista.Sum(x => x.Salario);
             Console.WriteLine(string.Format($"Existem {quantidade} funcionários registrados e a soma dos salários de todos é {0:c2}.", somatorio));
             }
@@ -295,6 +297,8 @@ namespace Aula03Colecoes
                 Console.WriteLine("Digite a data de admissão: ");
                 f.DataAdmissao = DateTime.Parse(Console.ReadLine());
 
+                DateTime dataAtual = DateTime.Now;
+
                 if (string.IsNullOrEmpty(f.Salario))
                 {
                     Console.WriteLine("O salário deve ser preenchido");
@@ -305,7 +309,7 @@ namespace Aula03Colecoes
                     Console.WriteLine("Valor do salário não pode ser 0");
                     return;
                 }
-                else if (f.DataAdmissao < Datetime.Now())
+                else if (f.DataAdmissao < dataAtual)
                 {
                   Console.WriteLine("A data de admissão não pode ser anterior à data atual.");
                 return;
@@ -337,9 +341,11 @@ namespace Aula03Colecoes
             //f) Método com nome ObterPorTipo que selecione a lista de funcionários de acordo com numeração digitada no console. 
             public static void ObterPorTipo()
             {
+            TipoFuncionarioEnum tipo = new TipoFuncionarioEnum();
             Console.WriteLine("Digite o número do tipo de funcionário que deseja obter: 1 para CLT e 2 para APRENDIZ");
-            int tipo = int.Parse(Console.ReadLine());
-            lista.FindAll(x => x.TipoFuncionario = tipo).ToList();
+
+            tipo = int.Parse(Console.ReadLine());
+            string resultado = lista.FindAll(x => x.TipoFuncionario = tipo.Contains(tipo));
             }
 
 
