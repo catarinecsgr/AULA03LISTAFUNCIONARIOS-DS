@@ -13,3 +13,17 @@ C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS - Desenvolvimento de Sistemas - Luiz Fer
 C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS - Desenvolvimento de Sistemas - Luiz Fernando\AULA03COLECLIST-DS\Aula03Colecoes\obj\Debug\net7.0\Aula03Colecoes.pdb
 C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS - Desenvolvimento de Sistemas - Luiz Fernando\AULA03COLECLIST-DS\Aula03Colecoes\obj\Debug\net7.0\Aula03Colecoes.genruntimeconfig.cache
 C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS - Desenvolvimento de Sistemas - Luiz Fernando\AULA03COLECLIST-DS\Aula03Colecoes\obj\Debug\net7.0\ref\Aula03Colecoes.dll
+C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS\AULA03COLECOES-DS\AULA03COLECLIST-DS\bin\Debug\net7.0\Aula03Colecoes.exe
+C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS\AULA03COLECOES-DS\AULA03COLECLIST-DS\bin\Debug\net7.0\Aula03Colecoes.deps.json
+C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS\AULA03COLECOES-DS\AULA03COLECLIST-DS\bin\Debug\net7.0\Aula03Colecoes.runtimeconfig.json
+C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS\AULA03COLECOES-DS\AULA03COLECLIST-DS\bin\Debug\net7.0\Aula03Colecoes.dll
+C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS\AULA03COLECOES-DS\AULA03COLECLIST-DS\bin\Debug\net7.0\Aula03Colecoes.pdb
+C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS\AULA03COLECOES-DS\AULA03COLECLIST-DS\obj\Debug\net7.0\Aula03Colecoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS\AULA03COLECOES-DS\AULA03COLECLIST-DS\obj\Debug\net7.0\Aula03Colecoes.AssemblyInfoInputs.cache
+C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS\AULA03COLECOES-DS\AULA03COLECLIST-DS\obj\Debug\net7.0\Aula03Colecoes.AssemblyInfo.cs
+C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS\AULA03COLECOES-DS\AULA03COLECLIST-DS\obj\Debug\net7.0\Aula03Colecoes.csproj.CoreCompileInputs.cache
+C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS\AULA03COLECOES-DS\AULA03COLECLIST-DS\obj\Debug\net7.0\Aula03Colecoes.dll
+C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS\AULA03COLECOES-DS\AULA03COLECLIST-DS\obj\Debug\net7.0\refint\Aula03Colecoes.dll
+C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS\AULA03COLECOES-DS\AULA03COLECLIST-DS\obj\Debug\net7.0\Aula03Colecoes.pdb
+C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS\AULA03COLECOES-DS\AULA03COLECLIST-DS\obj\Debug\net7.0\Aula03Colecoes.genruntimeconfig.cache
+C:\Users\Cat\Desktop\ETEC DS\2º Sem\DS\AULA03COLECOES-DS\AULA03COLECLIST-DS\obj\Debug\net7.0\ref\Aula03Colecoes.dll
